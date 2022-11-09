@@ -1,5 +1,5 @@
 # ginger
 
-[Markdown Manual](Mhttps://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Markdown Manual](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 [Presentations](https://theintrokey.github.io/ginger/s5-11/s5-intro.html)
