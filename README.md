@@ -4,4 +4,4 @@
 
 [Presentations](https://theintrokey.github.io/ginger/s5-11/s5-intro.html)
 
-[Project Example](ProjectExample/index.md)
+[Project Example](https://theintrokey.github.io/ginger/ProjectExample/index.md)
