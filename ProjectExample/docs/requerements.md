@@ -1,1 +1,1 @@
-[Index][../README.md]
+[Index](../index.md)
