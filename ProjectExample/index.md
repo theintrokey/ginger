@@ -7,5 +7,5 @@
 5. [Typography](docs/typography.md)
 
 
-<iframe src="https://theintrokey.github.io/ginger/ProjectExample/docs/requerements.md" width="100%" height="300" style="border:none;">
+<iframe src="https://theintrokey.github.io/ginger/ProjectExample/docs/requerements.html" width="100%" height="300" style="border:none;">
 </iframe>
