@@ -70,7 +70,7 @@ Listing 11-2. Conditionally loading style sheets
 A breakpoint is the threshold at which a page’s layout will change due to the viewport size with a media query. Defining your breakpoints is not an exact science, as there are many different devices in use today, all with different screen sizes. It’s better to set breakpoints based on the content. That is, you should try to avoid targeting specific devices with media queries. Instead, experiment with different viewport sizes, and find the points where your layout and design start looking cramped. Then you know where to set your breakpoints.
 
 
-**Figure 11-1** shows an example layout, with a viewport width of 1,000 pixels.
+** Figure 11-1 ** shows an example layout, with a viewport width of 1,000 pixels.
 
 The only CSS that has been applied is that the h1 element at the top has been set to a
 font-size of 5rem. If we start to shrink the viewport, we’ll see that the heading text wraps at around 785 pixels, as shown in Figure 11-2.
