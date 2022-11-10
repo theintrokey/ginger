@@ -72,13 +72,11 @@ A breakpoint is the threshold at which a page’s layout will change due to the 
 
 ** Figure 11-1 ** shows an example layout, with a viewport width of 1,000 pixels.
 
-<html>
-<h3>Today's Top Headlines</h3>
-<img src="cat.jpg" alt="" width="400" height="267>
-
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-</html>
+<div>
+ <h3>Today's Top Headlines</h3>
+ <img src="cat.jpg" alt="" width="400" height="267">
+ <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 
 
 
