@@ -97,12 +97,13 @@ Listing 11-3. Applying a media query to make the heading font smaller
 ```
 Figure 11-3 shows the resulting layout. Now when we view the site at that viewport size, the heading is smaller and takes up less vertical space, since it doesn’t wrap.
 
-
+<style>
 @media screen and (max-width: 785px) {
  h1 {
  font-size: 3rem;
  }
 }
+</style>
 
 <div>
  <h3>Today's Top Headlines</h3>
