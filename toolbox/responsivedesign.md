@@ -70,7 +70,7 @@ Listing 11-2. Conditionally loading style sheets
 A breakpoint is the threshold at which a page’s layout will change due to the viewport size with a media query. Defining your breakpoints is not an exact science, as there are many different devices in use today, all with different screen sizes. It’s better to set breakpoints based on the content. That is, you should try to avoid targeting specific devices with media queries. Instead, experiment with different viewport sizes, and find the points where your layout and design start looking cramped. Then you know where to set your breakpoints.
 
 
-** Figure 11-1 ** shows an example layout, with a viewport width of 1,000 pixels.
+Figure 11-1 shows an example layout, with a viewport width of 1,000 pixels.
 
 <div>
  <h3>Today's Top Headlines</h3>
@@ -78,12 +78,10 @@ A breakpoint is the threshold at which a page’s layout will change due to the 
  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
-
+** Figure 11-1. ** An example layout
 
 The only CSS that has been applied is that the h1 element at the top has been set to a
 font-size of 5rem. If we start to shrink the viewport, we’ll see that the heading text wraps at around 785 pixels, as shown in Figure 11-2.
-
-Figure 11-1. An example layout
 
 The headline takes up a lot of vertical space now, so this might be a good place for a
 breakpoint. We can make its font smaller when the viewport is 785 pixels or less by using
@@ -98,6 +96,19 @@ Listing 11-3. Applying a media query to make the heading font smaller
 }
 ```
 Figure 11-3 shows the resulting layout. Now when we view the site at that viewport size, the heading is smaller and takes up less vertical space, since it doesn’t wrap.
+
+
+@media screen and (max-width: 785px) {
+ h1 {
+ font-size: 3rem;
+ }
+}
+
+<div>
+ <h3>Today's Top Headlines</h3>
+ <img src="cat.jpg" alt="" width="400" height="267">
+ <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 
 Figure 11-2. The heading text wrapped
 
