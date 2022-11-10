@@ -5,3 +5,5 @@
 [Presentations](https://theintrokey.github.io/ginger/s5-11/s5-intro.html)
 
 [Project Example](https://theintrokey.github.io/ginger/ProjectExample/index.md)
+
+[ToolBox](https://theintrokey.github.io/ginger/toolbox/index.md)
